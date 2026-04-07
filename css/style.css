@@ -1,0 +1,38 @@
+/* Custom Styles to match screenshots */
+:root {
+    --upgrad-blue: #007bff;
+    --dark-blue: #0056b3;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: var(--upgrad-blue) !important;
+}
+
+.hero-section {
+    background-color: white;
+    padding: 60px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.footer-line {
+    border-top: 5px solid #28a745; /* Matches the green light on the Acer laptop in photo */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
